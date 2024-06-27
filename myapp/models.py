@@ -60,7 +60,7 @@ class MaintWorkOrderCheckList(models.Model): #affichage
         return f"Work Order Check List {self.id_work_order_check_list}"
 
 
-class MaintWorkOrderHeader(models.Model): #create
+class MaintWorkOrderHeader(models.Model): #insert
     id_work_order_header = models.AutoField(primary_key=True)
     no_work_order_header = models.CharField(max_length=40)
     f_read_only = models.SmallIntegerField()
