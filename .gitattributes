@@ -1,0 +1,7 @@
+# Set default behavior for all files
+* text=auto
+
+# Handle specific files with LF line endings
+myenv/Lib/site-packages/django/contrib/gis/**/* text eol=lf
+
+* text eol=lf
